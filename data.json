@@ -1,0 +1,47 @@
+{
+    "videos": [
+        {
+            "id": "vid-001",
+            "title": "Baby Sharkdoo doo - Nepali",
+            "src": "babysharkdoo.mp4",
+            "category": "Rhymes"
+        },
+        {
+            "id": "vid-002",
+            "title": "Ka Bata Kamal",
+            "src": "ka_bata_kamal.mp4",
+            "category": "Nepali"
+        },
+        {
+            "id": "vid-003",
+            "title": "ABC Learning",
+            "src": "ABC_01.mp4",
+            "category": "English"
+        },
+        {
+            "id": "vid-004",
+            "title": "Social Activities",
+            "src": "Social_01.mp4",
+            "category": "Social"
+        },
+        {
+            "id": "vid-005",
+            "title": "Nepali 1 to 10",
+            "src": "nepali_number.mp4",
+            "category": "Maths"
+        },
+        {
+            "id": "vid-006",
+            "title": "English 1 to 10",
+            "src": "English_number.mp4",
+            "category": "Maths"
+        },
+        {
+            "id": "vid-007",
+            "title": "Playing Idea",
+            "src": "idea01.mp4",
+            "category": "Idea"
+        }
+    ],
+    "categories": ["All", "Rhymes", "Nepali", "English", "Maths", "Social","Science","Idea","Games"]
+}

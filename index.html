@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merish's Book</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-play-circle"></i>
+            <span>Merish's</span>Book
+        </div>
+        
+        <div class="search-container">
+            <i class="fas fa-search"></i>
+            <input type="text" id="search-input" placeholder="Search videos..." aria-label="Search videos">
+        </div>
+        
+        <div class="categories" id="categories-container">
+            <!-- Categories will be populated by JavaScript -->
+        </div>
+        
+        <button class="mobile-categories-btn" id="mobile-categories-btn" aria-label="Show categories">
+            <i class="fas fa-filter"></i>
+        </button>
+    </header>
+    
+    <div class="mobile-categories-menu" id="mobile-categories-menu">
+        <!-- Mobile categories will be populated by JavaScript -->
+    </div>
+    
+    <div class="video-container" id="video-container">
+        <!-- Videos will be populated by JavaScript -->
+    </div>
+    
+    <div class="nav-controls">
+        <button class="nav-btn" id="prev-btn" aria-label="Previous video">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        <button class="nav-btn" id="next-btn" aria-label="Next video">
+            <i class="fas fa-arrow-down"></i>
+        </button>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
